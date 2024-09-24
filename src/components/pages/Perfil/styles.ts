@@ -1,26 +1,34 @@
 import styled from "styled-components";
 
 export const StyledSection = styled.div`
-display: block;
-padding-top: 100px;
+text-align:center;
+padding-top: 300px;
+position: center;
 margin-left: 50px;
-color: white;
+color: #7FFF00;
+font-size: 32px;
+padding-bottom: 8px;
 
-img{
-  width: 218px;
-  height: 220px;
-  border-radius: 50%;
-  padding-top: 16px;
+
+
+span{
+
+
+  font:bolder;
 }
+
+
+
 @keyframes slideIn {
     from {
-      transform: translateX(100vw); /* Começa fora da tela à direita */
+      transform: translateX(100vw);
       opacity: 0;
     }
     to {
-      transform: translateX(0); /* Finaliza na posição original */
+      transform: translateX(0);
       opacity: 1;
     }
   }
   animation: slideIn 3s ease-out forwards;
+
 `

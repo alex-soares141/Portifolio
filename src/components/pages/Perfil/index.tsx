@@ -1,4 +1,4 @@
-import Perfil from '../../../assets/Perfil.jpg'
+
 import { StyledSection } from "./styles";
 
 const Section = () => {
@@ -6,8 +6,8 @@ const Section = () => {
     <StyledSection>
 
       <h1>Meu nome é Alex Soares</h1>
-      <h2>Desenvolvedor Front End</h2>
-      <img src={Perfil} alt="" />
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati dolores ea amet iusto ab animi dignissimos consectetur deserunt, aspernatur repellat, eius dolor dolore laudantium saepe, omnis accusantium doloribus nam nemo?</p>
+
     </StyledSection>
   );
 };

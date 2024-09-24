@@ -2,13 +2,13 @@ import styled from "styled-components";
 
 export const StyledHeader = styled.div`
   display: flex;
- justify-content: space-around;
+ justify-content: space-between;
 
-  padding: 32px;
-  background-color: blue;
-  color: white;
+  padding: 25px;
+  background-color: black;
+  color:#90EE90;
 a {
-    color: white;
+    color: #90EE90;
     text-decoration: none;
     cursor: pointer;
     &:hover {
