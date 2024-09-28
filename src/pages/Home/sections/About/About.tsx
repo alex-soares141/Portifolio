@@ -3,13 +3,14 @@ import { Box, Container, styled, Typography } from "@mui/material";
 const StyledAbout = styled("div")(({ theme }) => ({
   textAlign: "center",
   alignItems: "center",
-  height: "60vh",
+  height: "100vh",
   display: "flex",
   justifyContent: "center",
   flexDirection: "column",
   backgroundColor: theme.palette.grey[300], // Cor cinza claro
   [theme.breakpoints.up("md")]: {
     paddingTop: "0px",
+
   },
 }));
 
