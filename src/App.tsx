@@ -1,13 +1,13 @@
-import Header from './components/pages/Home/header';
-import Section from './components/pages/Perfil';
-import GlobalStyles from './styles';
+import Home from "./pages/Home/Home";
 
-function App() {
+
+
+const App = () => {
   return (
     <>
-      <GlobalStyles />
-      <Header />
-      <Section />
+
+      <Home />
+
 
     </>
   );
