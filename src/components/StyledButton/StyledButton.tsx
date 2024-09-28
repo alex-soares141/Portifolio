@@ -3,6 +3,7 @@ import { ReactNode } from "react";
 
 interface StyledButtonProps {
   children: ReactNode;
+  onClick: () => void
 }
 
 const StyledButtonComponent = styled("button")(({ theme }) => ({
@@ -22,11 +23,11 @@ const StyledButtonComponent = styled("button")(({ theme }) => ({
 }));
 
 // eslint-disable-next-line react/prop-types
-const StyledButton: React.FC<StyledButtonProps> = ({ children }) => {
+const StyledButton: React.FC<StyledButtonProps> = ({ children, onClick }) => {
   return (
-    <StyledButtonComponent>
+    <StyledButtonComponent onClick={onClick}>
       {children}
-    </StyledButtonComponent>
+    </StyledButtonComponent >
   );
 };
 
