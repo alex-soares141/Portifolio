@@ -21,20 +21,23 @@ const StyledProjects = styled("div")(({ theme }) => ({
   justifyContent: "center",
   flexDirection: "column",
   paddingTop: "0px",
+  backgroundColor: theme.palette.primary.main,
 
-  backgroundColor: theme.palette.grey[200],
+
+
 }));
 
 export default function ActionAreaCard() {
   return (
-    <StyledProjects id="Projetos">
+    <StyledProjects id="Projetos" >
       <Container maxWidth="md">
         <Typography
-          color="black"
+
           variant="h2"
           textAlign="center"
           gutterBottom
 
+          color="primary.contrastText"
         >
           Projetos
         </Typography>
