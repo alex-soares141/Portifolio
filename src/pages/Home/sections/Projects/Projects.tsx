@@ -27,13 +27,14 @@ const StyledProjects = styled("div")(({ theme }) => ({
 
 export default function ActionAreaCard() {
   return (
-    <StyledProjects id="ProjectsStyledProjects">
+    <StyledProjects id="Projetos">
       <Container maxWidth="md">
         <Typography
           color="black"
           variant="h2"
           textAlign="center"
           gutterBottom
+
         >
           Projetos
         </Typography>
@@ -54,8 +55,8 @@ export default function ActionAreaCard() {
                     Restaurante M & V
                   </Typography>
                   <Typography variant="body2" color="text.primary">
-                    Lizards are a widespread group of squamate reptiles, with over 6,000
-                    species, ranging across all continents except Antarctica.
+                    Página criada como projeto pessoal, para praticar o uso de bootstrap 5, o intuito foi criar uma pagina estatica
+                    dedicado aos meus pais, por esse motivo o nome M&V (Márcio e Vanilda).
                   </Typography>
                 </CardContent>
               </CardActionArea>
@@ -73,11 +74,11 @@ export default function ActionAreaCard() {
                 />
                 <CardContent>
                   <Typography gutterBottom variant="h5" component="div">
-                    Evento Ebac
+                    Evento Tech
                   </Typography>
                   <Typography variant="body2" color="text.primary">
-                    Lizards are a widespread group of squamate reptiles, with over 6,000
-                    species, ranging across all continents except Antarctica.
+                    Ebac Tech, foi a criação de uma pagina destinada a um Evento da instituição,
+                    utilizando JavaScript para a contagem regressiva, a biblioteca Animate On Scroll Library para animações no Scroll.
                   </Typography>
                 </CardContent>
               </CardActionArea>
@@ -98,8 +99,8 @@ export default function ActionAreaCard() {
                     Clone Disney
                   </Typography>
                   <Typography variant="body2" color="text.primary">
-                    Lizards are a widespread group of squamate reptiles, with over 6,000
-                    species, ranging across all continents except Antarctica.
+                    Nesse projeto o intuito foi realizar a criação de uma pagina bem semelhante a Disney-Plus, onde foi utilizando a Biblioteca,
+                    Gulp para a pratica de minificações de imagens e scripts.
                   </Typography>
                 </CardContent>
               </CardActionArea>
@@ -107,8 +108,8 @@ export default function ActionAreaCard() {
           </Grid>
         </Grid>
         <Grid container spacing={2} justifyContent="center">
-          <Grid item xs={12} md={4}> {/* Ajuste para colunas em breakpoints médios */}
-            <Card sx={{ maxWidth: 345 }}>
+          <Grid item xs={12} md={4}>
+            <Card sx={{ maxWidth: 345, paddingBottom: 13, }}>
               <CardActionArea>
                 <CardMedia
                   component="img"
@@ -118,11 +119,11 @@ export default function ActionAreaCard() {
                 />
                 <CardContent>
                   <Typography gutterBottom variant="h5" component="div">
-                    Pagina de estudos
+                    Consumo de API
                   </Typography>
                   <Typography variant="body2" color="text.primary">
-                    Lizards are a widespread group of squamate reptiles, with over 6,000
-                    species, ranging across all continents except Antarctica.
+                    Nesse projeto eu estava praticando o consumo de api e utilização do Less, para mapeamento de estilos,
+                    uma pagina estatica mas com redirecionamento de links.
                   </Typography>
                 </CardContent>
               </CardActionArea>
@@ -130,7 +131,7 @@ export default function ActionAreaCard() {
           </Grid>
 
           <Grid item xs={12} md={4}>
-            <Card sx={{ maxWidth: 345 }}>
+            <Card sx={{ maxWidth: 345, paddingBottom: 8, }}>
               <CardActionArea>
                 <CardMedia
                   component="img"
@@ -143,8 +144,9 @@ export default function ActionAreaCard() {
                     Mx Store
                   </Typography>
                   <Typography variant="body2" color="text.primary">
-                    Lizards are a widespread group of squamate reptiles, with over 6,000
-                    species, ranging across all continents except Antarctica.
+                    A Mx Store é uma pagina de exibição de equipamentos para motocross, no qual eu gosto bastante e fiz como projeto pessoal,
+                    Nessa pagina pude utilizar mascaras Jquery, pude conhecer novos recursos do Bootstrap, como por exemplo nav-pills e scroll spy.
+
                   </Typography>
                 </CardContent>
               </CardActionArea>
@@ -152,7 +154,7 @@ export default function ActionAreaCard() {
           </Grid>
 
           <Grid item xs={12} md={4}>
-            <Card sx={{ maxWidth: 345 }}>
+            <Card sx={{ maxWidth: 345, paddingBottom: 0, }}>
               <CardActionArea>
                 <CardMedia
                   component="img"
@@ -165,8 +167,9 @@ export default function ActionAreaCard() {
                     E-food
                   </Typography>
                   <Typography variant="body2" color="text.primary">
-                    Lizards are a widespread group of squamate reptiles, with over 6,000
-                    species, ranging across all continents except Antarctica.
+                    Teste final Ebac, um e-commerce como projeto final do curso de Engenheiro Front-End da EBAC. O objetivo foi aplicar as melhores práticas de desenvolvimento web,
+                    criando uma aplicação moderna, responsiva com as
+                    tecnologias React.js com TypeScript, Styled-components, Hooks do React, Redux para gerenciamento de estado e cypress para teste .
                   </Typography>
                 </CardContent>
               </CardActionArea>

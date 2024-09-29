@@ -20,7 +20,16 @@ const NavBar = () => {
               Sobre Mim
             </Link>
           </MenuItem>
-          <MenuItem>Projetos</MenuItem>
+          <MenuItem>
+            <Link
+              to="Projetos"
+              smooth={true}
+              duration={1000}
+              style={{ textDecoration: 'none', color: 'inherit' }}
+            >
+              Projetos
+            </Link>
+          </MenuItem>
           <MenuItem>Habilidades</MenuItem>
 
         </StyledToolbar>
