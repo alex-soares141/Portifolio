@@ -5,6 +5,7 @@ import WhatsAppIcon from '@mui/icons-material/WhatsApp';
 
 import StyledButton from "../../../../components/StyledButton/StyledButton";
 import theme from "../../../../theme";
+import { AnimatedBackground } from "../../../../components/AnimatedBackground/AnimatedBackground";
 
 const Hero = () => {
   const StyledHero = styled("div")(({ theme }) => ({
@@ -12,6 +13,7 @@ const Hero = () => {
     height: "100vh",
     display: "flex",
     alignItems: "center",
+
     paddingTop: "100px",
     [theme.breakpoints.up("md")]: {
       paddingTop: "0px",
@@ -30,8 +32,13 @@ const Hero = () => {
         <Container maxWidth="lg">
           <Grid container spacing={2}>
             <Grid item xs={12} md={5}>
-              <Box position="relative" textAlign="center">
-                <StyledImg src={Avatar} alt="Avatar" />
+              <Box position="relative">
+                <Box position="absolute" width={"150%"} top={-100} right={0}>
+                  <AnimatedBackground />
+                </Box>
+                <Box position="relative" textAlign="center">
+                  <StyledImg src={Avatar} />
+                </Box>
               </Box>
             </Grid>
             <Grid item xs={12} md={7}>
@@ -41,7 +48,7 @@ const Hero = () => {
                 textAlign="center"
                 pt={3}
               >
-                Alex Soares
+                <span>Alex Soares</span>
               </Typography>
               <Typography
                 color="primary.contrastText"
@@ -49,7 +56,7 @@ const Hero = () => {
                 textAlign="center"
                 pb={3}
               >
-                I&apos;m a Front End Developer
+                <span>I&apos;m a Front End Developer</span>
               </Typography>
               <Grid container display="flex" justifyContent="center" spacing={3}>
                 <Grid item xs={12} md={4} display="flex" justifyContent="center">
