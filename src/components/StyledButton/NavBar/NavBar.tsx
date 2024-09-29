@@ -20,8 +20,9 @@ const NavBar = () => {
               Sobre Mim
             </Link>
           </MenuItem>
-          <MenuItem>Habilidades</MenuItem>
           <MenuItem>Projetos</MenuItem>
+          <MenuItem>Habilidades</MenuItem>
+
         </StyledToolbar>
       </AppBar>
     </>

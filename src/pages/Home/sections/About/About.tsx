@@ -7,7 +7,7 @@ const StyledAbout = styled("div")(({ theme }) => ({
   display: "flex",
   justifyContent: "center",
   flexDirection: "column",
-  backgroundColor: theme.palette.grey[300], // Cor cinza claro
+  backgroundColor: theme.palette.grey[300],
   [theme.breakpoints.up("md")]: {
     paddingTop: "0px",
 
@@ -27,7 +27,7 @@ const About = () => {
         </Typography>
         <Typography textAlign="initial" fontSize={19}>
           <Box>
-            Meu nome é Alex Soares de Oliveira, tenho 29 anos e sou natural de Guanhães, MG, onde passei boa parte da minha vida trabalhando como
+            Meu nome é Alex Soares de Oliveira, tenho 29 anos e sou natural de Guanhães-MG, onde passei boa parte da minha vida trabalhando como
             vendedor em lojas de materiais de construção. Em 2021, tive a oportunidade de ingressar no mercado de TI, um campo que sempre despertou
             minha curiosidade. Desde então, percebi que estava trilhando o caminho certo para minha carreira. Em 2022, iniciei a faculdade
             de Análise e Desenvolvimento de Sistemas e obtive minha graduação. Além disso, finalizei o curso profissionalizante de Engenheiro
