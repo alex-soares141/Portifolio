@@ -1,5 +1,5 @@
 
-import Footer from "../../components/Footer/Footer";
+
 import NavBar from "../../components/StyledButton/NavBar/NavBar";
 import Habilidades from "./Habilites/habilidades";
 import About from "./sections/About/About";
@@ -14,11 +14,12 @@ const Home = () => {
       <About />
       <Projects />
       <Habilidades />
-      <Footer />
+
 
 
     </>
   );
 }
+
 
 export default Home;
