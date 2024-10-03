@@ -20,7 +20,8 @@ const StyledProjects = styled("div")(({ theme }) => ({
   display: "flex",
   justifyContent: "center",
   flexDirection: "column",
-  paddingTop: "0px",
+  paddingTop: "32px",
+  paddingBottom: "32px",
   backgroundColor: theme.palette.primary.main,
 }));
 
@@ -162,7 +163,7 @@ export default function ActionAreaCard() {
           </Grid>
         </Grid>
 
-        {/* Alinhando os últimos 3 cards */}
+
         <Grid container spacing={2} justifyContent="center">
           <Grid item xs={12} md={4}>
             <StyledCard sx={{ maxWidth: 345 }}>

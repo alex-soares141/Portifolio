@@ -3,15 +3,12 @@ import { Box, Container, styled, Typography } from "@mui/material";
 const StyledAbout = styled("div")(({ theme }) => ({
   textAlign: "center",
   alignItems: "center",
-  height: "100vh",
+  minHeight: "100vh",
   display: "flex",
   justifyContent: "center",
   flexDirection: "column",
+  paddingTop: "0px",
   backgroundColor: theme.palette.grey[300],
-  [theme.breakpoints.up("md")]: {
-    paddingTop: "0px",
-
-  },
 }));
 
 const About = () => {
@@ -22,6 +19,7 @@ const About = () => {
           color="Primary.contrastText"
           variant="h2"
           textAlign="center"
+          pb={8}
         >
           Sobre mim
         </Typography>

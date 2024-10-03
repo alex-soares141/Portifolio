@@ -5,10 +5,8 @@ import { Container, styled, Typography } from "@mui/material";
 const StyledFooter = styled("div")(({ theme }) => ({
   textAlign: "center",
   alignItems: "center",
-  height: "10vh",
+  height: "10%",
   display: "flex",
-  padding: "0px",
-  color: theme.palette.primary.contrastText,
   justifyContent: "center",
   flexDirection: "column",
   backgroundColor: theme.palette.primary.main,
