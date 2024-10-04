@@ -45,20 +45,38 @@ const Footer = () => {
         <h5>Me acompanhe nas redes sociais</h5>
       </Typography>
 
-      <Container maxWidth="md" >
+      <Container maxWidth="md">
         <StyledIcons>
-          <img src={Whatsapp} alt="" />
-          <img src={Instagram} alt="" />
-
-          <img src={GitHub} alt="" />
-          <img src={Linkedin} alt="" />
-
+          <a href="https://wa.me/5533988997674" target="_blank" rel="noopener noreferrer">
+            <img src={Whatsapp} alt="whatsapp" />
+          </a>
+          <a
+            href="https://www.instagram.com/alex_soares_oliveira/"
+            style={{ textDecoration: 'none', color: 'inherit' }}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img src={Instagram} alt="instagram" />
+          </a>
+          <a
+            href="https://github.com/Lostleleco"
+            style={{ textDecoration: 'none', color: 'inherit' }}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img src={GitHub} alt="github" />
+          </a>
+          <a
+            href="https://www.linkedin.com/in/alex-soares-de-oliveira-669885308/"
+            style={{ textDecoration: 'none', color: 'inherit' }}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img src={Linkedin} alt="linkedin" />
+          </a>
         </StyledIcons>
-
-
-
-
       </Container>
+
 
     </StyledFooter >
 

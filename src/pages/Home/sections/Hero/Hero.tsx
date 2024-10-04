@@ -79,7 +79,7 @@ const Hero = () => {
                     <WhatsAppIcon />
                     <Typography>
                       <a
-                        href="https://wa.me/5533988997674" // Link para abrir no WhatsApp
+                        href="https://wa.me/5533988997674"
                         style={{ textDecoration: 'none', color: 'inherit' }}
                         target="_blank"
                         rel="noopener noreferrer"
