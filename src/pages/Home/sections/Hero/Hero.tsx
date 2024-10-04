@@ -3,6 +3,7 @@ import Avatar from "../../../../assets/20240928_134217.jpg";
 import DownloadForOfflineIcon from "@mui/icons-material/DownloadForOffline";
 import WhatsAppIcon from '@mui/icons-material/WhatsApp';
 
+
 import StyledButton from "../../../../components/StyledButton/StyledButton";
 import theme from "../../../../theme";
 import { AnimatedBackground } from "../../../../components/AnimatedBackground/AnimatedBackground";
@@ -13,7 +14,6 @@ const Hero = () => {
     height: "100vh",
     display: "flex",
     alignItems: "center",
-
     paddingTop: "100px",
     [theme.breakpoints.up("md")]: {
       paddingTop: "0px",
@@ -30,17 +30,20 @@ const Hero = () => {
     <>
       <StyledHero>
         <Container maxWidth="lg">
-          <Grid container spacing={2}>
-            <Grid item xs={12} md={5}>
+          <Grid container spacing={6}>
+            <Grid item xs={12} lg={5}>
               <Box position="relative">
-                <Box position="absolute" width={"130%"} top={-100} right={-1}>
+                <Box position="absolute" width={"100%"} top={-100} right={-1}>
                   <AnimatedBackground />
                 </Box>
                 <Box position="relative" textAlign="center">
                   <StyledImg src={Avatar} />
+
                 </Box>
               </Box>
+
             </Grid>
+
             <Grid item xs={12} md={7}>
               <Typography
                 color="primary.contrastText"
@@ -58,6 +61,17 @@ const Hero = () => {
               >
                 <span>I&apos;m a Front End Developer</span>
               </Typography>
+
+              <Typography
+                color="primary.contrastText"
+                variant="h5"
+                textAlign="center"
+                pb={5}
+                fontStyle="italic"
+              >
+                Desenvolvendo soluções inovadoras que transformam ideias em experiências digitais incríveis.
+              </Typography>
+
               <Grid container display="flex" justifyContent="center" spacing={3}>
                 <Grid item xs={12} md={4} display="flex" justifyContent="center">
                   <StyledButton onClick={() => console.log("dowload")} >
@@ -74,6 +88,7 @@ const Hero = () => {
                     </Typography>
                   </StyledButton>
                 </Grid>
+
                 <Grid item xs={12} md={4} display="flex" justifyContent="center">
                   <StyledButton onClick={() => console.log("Contact")}>
                     <WhatsAppIcon />
@@ -88,8 +103,6 @@ const Hero = () => {
                       </a>
                     </Typography>
                   </StyledButton>
-
-
                 </Grid>
               </Grid>
             </Grid>

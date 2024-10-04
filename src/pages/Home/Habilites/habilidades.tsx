@@ -2,7 +2,6 @@ import { styled, keyframes } from '@mui/material';
 import Typography from '@mui/material/Typography';
 import Container from '@mui/material/Container';
 import Grid from '@mui/material/Grid';
-import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
 
 import HTML from '../../../assets/icons/html-1.svg';
@@ -48,12 +47,12 @@ const IconContainer = styled('div')(({ theme }) => ({
   display: 'flex',
   alignItems: 'center',
   justifyContent: 'center',
-  margin: '10px',
+  margin: '18px',
   padding: '10px',
   borderRadius: '50%',
   backgroundColor: theme.palette.primary.light,
-  width: '60px',
-  height: '60px',
+  width: '90px',
+  height: '90px',
   transition: 'transform 0.3s',
   boxShadow: '0px 6px 12px rgba(0, 0, 0, 0.1)',
   animation: `${fadeInScale} 0.8s ease-in-out`,
@@ -70,20 +69,7 @@ const IconContainer = styled('div')(({ theme }) => ({
   },
 }));
 
-const StyledCard = styled(Card)(({ }) => ({
-  maxWidth: 600,
-  margin: '20px auto',
-  padding: '20px',
-  textAlign: 'center',
-  display: 'flex',
-  flexDirection: 'column',
-  alignItems: 'center',
-  justifyContent: 'center',
-  boxShadow: '0px 4px 8px rgba(0, 0, 0, 0.1)',
-  '&:hover': {
-    boxShadow: '0px 12px 24px rgba(0, 0, 0, 0.2)',
-  },
-}));
+
 
 export default function Habilidades() {
   const icons = [
@@ -111,19 +97,19 @@ export default function Habilidades() {
           Habilidades
         </Typography>
 
-        <StyledCard>
-          <CardContent>
-            <Grid container spacing={2} justifyContent="center">
-              {icons.map((icon, index) => (
-                <Grid item key={index}>
-                  <IconContainer>
-                    <img src={icon} alt="" />
-                  </IconContainer>
-                </Grid>
-              ))}
-            </Grid>
-          </CardContent>
-        </StyledCard>
+
+        <CardContent >
+          <Grid container spacing={5} justifyContent="center">
+            {icons.map((icon, index) => (
+              <Grid item key={index}>
+                <IconContainer>
+                  <img src={icon} alt="Stacks Icons" />
+                </IconContainer>
+              </Grid>
+            ))}
+          </Grid>
+        </CardContent>
+
       </Container>
     </StyledHabilidades>
   );

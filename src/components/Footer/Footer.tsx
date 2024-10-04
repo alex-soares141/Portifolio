@@ -1,9 +1,8 @@
 import { Container, styled, Typography } from "@mui/material";
 import Whatsapp from '../../assets/Whatsapp.png';
-import Instagram from '../../assets/Instagram.png'
-import GitHub from '../../assets/Github.png'
-import Linkedin from '../../assets/Linkedin.png'
-
+import Instagram from '../../assets/Instagram.png';
+import GitHub from '../../assets/Github.png';
+import Linkedin from '../../assets/Linkedin.png';
 
 const StyledFooter = styled("div")(({ theme }) => ({
   textAlign: "center",
@@ -12,29 +11,27 @@ const StyledFooter = styled("div")(({ theme }) => ({
   display: "flex",
   justifyContent: "center",
   flexDirection: "column",
+  paddingBottom: "8px",
   backgroundColor: theme.palette.primary.main,
   [theme.breakpoints.up("md")]: {
     paddingTop: "0px",
-
   },
 }));
+
 const StyledIcons = styled("div")(({ theme }) => ({
   textAlign: "center",
   alignItems: "center",
   height: "30%",
   display: "flex",
   justifyContent: "space-evenly",
-
   backgroundColor: theme.palette.primary.main,
   [theme.breakpoints.up("md")]: {
     paddingTop: "0px",
-
   },
 }));
 
 const Footer = () => {
   return (
-
     <StyledFooter id="Footer">
       <Typography
         color="primary.contrastText"
@@ -42,7 +39,7 @@ const Footer = () => {
         textAlign="center"
         fontSize={32}
       >
-        <h5>Me acompanhe nas redes sociais</h5>
+        <h4>Conecte-se comigo nas redes sociais</h4>
       </Typography>
 
       <Container maxWidth="md">
@@ -77,11 +74,17 @@ const Footer = () => {
         </StyledIcons>
       </Container>
 
-
-    </StyledFooter >
-
+      <Typography
+        color="primary.contrastText"
+        variant="body2"
+        textAlign="center"
+        fontSize={14}
+        marginTop="20px"
+      >
+        &copy; Alex Soares de Oliveira. Todos os direitos reservados 2024.
+      </Typography>
+    </StyledFooter>
   );
 };
 
 export default Footer;
-

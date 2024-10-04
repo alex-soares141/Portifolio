@@ -24,7 +24,7 @@ const NavBar = () => {
             <Link
               to="Projetos"
               smooth={true}
-              duration={1000}
+              duration={2000}
               style={{ textDecoration: 'none', color: 'inherit' }}
             >
               Projetos
@@ -34,7 +34,7 @@ const NavBar = () => {
             <Link
               to="Habilidades"
               smooth={true}
-              duration={5000}
+              duration={2000}
               style={{ textDecoration: 'none', color: 'inherit' }}
             >
               Hablididades
