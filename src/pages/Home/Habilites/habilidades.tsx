@@ -63,6 +63,7 @@ const icons = [
   { Icon: CssIcon, name: 'CSS', color: '#1572B6' },
   { Icon: JavascriptIcon, name: 'JavaScript', color: '#F7DF1E' },
   { Icon: CodeIcon, name: 'React', color: '#61DAFB' },
+  { Icon: BuildIcon, name: 'Material-Ui', color: '#8ddb44' },
   { Icon: PaletteIcon, name: 'Sass', color: '#CC6699' },
   { Icon: CodeIcon, name: 'TypeScript', color: '#3178C6' },
   { Icon: CodeIcon, name: 'Vue.js', color: '#42b883' },
