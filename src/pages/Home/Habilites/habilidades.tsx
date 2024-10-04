@@ -20,6 +20,7 @@ import Grunt from '../../../assets/icons/grunt-1.svg';
 import Material from '../../../assets/icons/material-ui-1.svg';
 import Cypress from '../../../assets/icons/cypress-1.svg';
 
+
 const fadeInScale = keyframes`
   0% {
     opacity: 0;
@@ -47,8 +48,9 @@ const IconContainer = styled('div')(({ theme }) => ({
   display: 'flex',
   alignItems: 'center',
   justifyContent: 'center',
+  padding: "17px",
   margin: '18px',
-  padding: '10px',
+
   borderRadius: '50%',
   backgroundColor: theme.palette.primary.light,
   width: '90px',
@@ -65,6 +67,7 @@ const IconContainer = styled('div')(({ theme }) => ({
   '& img': {
     width: '100%',
     height: '100%',
+    Padding: "17px",
     objectFit: 'contain',
   },
 }));
