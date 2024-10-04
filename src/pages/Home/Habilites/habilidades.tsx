@@ -34,6 +34,7 @@ const StyledHabilidades = styled("div")(({ theme }) => ({
   justifyContent: "center",
   flexDirection: "column",
   paddingTop: "20px",
+  paddingBottom: "16px",
   backgroundColor: theme.palette.grey[300],
 }));
 
