@@ -11,10 +11,11 @@ import { AnimatedBackground } from "../../../../components/AnimatedBackground/An
 const Hero = () => {
   const StyledHero = styled("div")(({ theme }) => ({
     backgroundColor: theme.palette.primary.main,
-    height: "100vh",
+    height: "130vh",
     display: "flex",
     alignItems: "center",
     paddingTop: "100px",
+    paddingBottom: "100px",
     [theme.breakpoints.up("md")]: {
       paddingTop: "0px",
     },
