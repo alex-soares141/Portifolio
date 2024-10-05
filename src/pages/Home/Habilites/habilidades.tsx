@@ -19,6 +19,7 @@ import Gulp from '../../../assets/icons/gulp.svg';
 import Grunt from '../../../assets/icons/grunt-1.svg';
 import Material from '../../../assets/icons/material-ui-1.svg';
 import Cypress from '../../../assets/icons/cypress-1.svg';
+import Vercel from '../../../assets/icons/vercel.svg';
 
 
 const fadeInScale = keyframes`
@@ -91,6 +92,8 @@ export default function Habilidades() {
     Grunt,
     Material,
     Cypress,
+    Vercel
+
   ];
 
   return (
