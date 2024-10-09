@@ -64,7 +64,7 @@ const Footer = () => {
             <img src={GitHub} alt="github" />
           </a>
           <a
-            href="in/alex-soares-de-oliveira-669885308"
+            href="https://www.linkedin.com/in/alex-soares-de-oliveira-669885308/"
             style={{ textDecoration: 'none', color: 'inherit' }}
             target="_blank"
             rel="noopener noreferrer"
