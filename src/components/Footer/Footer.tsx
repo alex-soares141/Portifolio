@@ -48,7 +48,7 @@ const Footer = () => {
             <img src={Whatsapp} alt="whatsapp" />
           </a>
           <a
-            href="https://www.instagram.com/alex_dev_frontend/"
+            href="https://www.instagram.com/alex_soares_oliveira/"
             style={{ textDecoration: 'none', color: 'inherit' }}
             target="_blank"
             rel="noopener noreferrer"
