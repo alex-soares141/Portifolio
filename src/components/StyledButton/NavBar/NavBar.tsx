@@ -40,6 +40,16 @@ const NavBar = () => {
               Hablididades
             </Link>
           </MenuItem>
+          <MenuItem>
+            <Link
+              to="Experiencia"
+              smooth={true}
+              duration={2000}
+              style={{ textDecoration: 'none', color: 'inherit' }}
+            >
+              Experiência
+            </Link>
+          </MenuItem>
 
         </StyledToolbar>
       </AppBar>

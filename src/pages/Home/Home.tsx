@@ -1,4 +1,5 @@
 
+import Experiencia from "../../components/Experiencias/Experiencia";
 import Footer from "../../components/Footer/Footer";
 import NavBar from "../../components/StyledButton/NavBar/NavBar";
 import Habilidades from "./Habilites/habilidades";
@@ -14,6 +15,7 @@ const Home = () => {
       <About />
       <Projects />
       <Habilidades />
+      <Experiencia/>
       <Footer />
 
 
