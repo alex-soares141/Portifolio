@@ -21,15 +21,16 @@ import Material from '../../../assets/icons/material-ui-1.svg';
 import Cypress from '../../../assets/icons/cypress-1.svg';
 import Vercel from '../../../assets/icons/vercel.svg';
 
-
-const fadeInScale = keyframes`
+// Animação para piscar
+const blinkAnimation = keyframes`
   0% {
-    opacity: 0;
-    transform: scale(0.5);
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
   }
   100% {
-    opacity: 1;
-    transform: scale(1);
+    opacity:1;
   }
 `;
 
@@ -49,16 +50,15 @@ const IconContainer = styled('div')(({ theme }) => ({
   display: 'flex',
   alignItems: 'center',
   justifyContent: 'center',
-  padding: "17px",
+  padding: '17px',
   margin: '18px',
-
   borderRadius: '50%',
   backgroundColor: theme.palette.primary.light,
   width: '90px',
   height: '90px',
   transition: 'transform 0.3s',
   boxShadow: '0px 6px 12px rgba(0, 0, 0, 0.1)',
-  animation: `${fadeInScale} 0.8s ease-in-out`,
+  animation: `${blinkAnimation} 3s infinite ease-in-out`, // Adiciona a animação de piscar
 
   '&:hover': {
     transform: 'scale(1.2)',
@@ -68,12 +68,10 @@ const IconContainer = styled('div')(({ theme }) => ({
   '& img': {
     width: '100%',
     height: '100%',
-    Padding: "17px",
+    padding: '17px',
     objectFit: 'contain',
   },
 }));
-
-
 
 export default function Habilidades() {
   const icons = [
@@ -92,8 +90,7 @@ export default function Habilidades() {
     Grunt,
     Material,
     Cypress,
-    Vercel
-
+    Vercel,
   ];
 
   return (
@@ -103,19 +100,17 @@ export default function Habilidades() {
           Habilidades
         </Typography>
 
-
-        <CardContent >
+        <CardContent>
           <Grid container spacing={5} justifyContent="center">
             {icons.map((icon, index) => (
               <Grid item key={index}>
                 <IconContainer>
-                  <img src={icon} alt="Stacks Icons" />
+                  <img src={icon} alt={`Icon ${index + 1}`} />
                 </IconContainer>
               </Grid>
             ))}
           </Grid>
         </CardContent>
-
       </Container>
     </StyledHabilidades>
   );

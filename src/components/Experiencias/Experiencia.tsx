@@ -106,13 +106,6 @@ export default function ActionAreaCard() {
             </StyledCard>
           </Grid>
         </Grid>
-
-
-
-
-
-
-
       </Container>
     </StyledExperiencia>
   );
