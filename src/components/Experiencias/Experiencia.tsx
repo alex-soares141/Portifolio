@@ -54,6 +54,7 @@ export default function ActionAreaCard() {
 
                 <CardContent>
                   <Typography gutterBottom variant="h5" component="div">
+                    Analista de suporte 
                     Facil Sistemas Ltda
                   </Typography>
                   <Typography variant="body2" color="text.primary">
@@ -75,6 +76,7 @@ export default function ActionAreaCard() {
                 <CardContent>
                   <Typography gutterBottom variant="h5" component="div">
                     Desenvolvedor Front End Júnior
+                    na empresa Fusion Front End
                   </Typography>
                   <Typography variant="body2" color="text.primary">
                     Faço parte do time de desenvolvedores da Front Fusion, como voluntario em um projeto de desenvolvimento de uma Landing Page. Minhas responsabilidades são:
@@ -95,7 +97,8 @@ export default function ActionAreaCard() {
 
                 <CardContent>
                   <Typography gutterBottom variant="h5" component="div">
-                    Desenvolvedor de front-end Freelancer
+                    Desenvolvedor de front-end na empresa 
+                    Worxs Base
                   </Typography>
                   <Typography variant="body2" color="text.primary">
                     Atuo como Desenvolvedor Front-End, atendendo clientes na plataforma WorxBase. Minha principal responsabilidade é criar interfaces modernas, interativas e responsivas que proporcionem uma experiência de usuário eficiente e intuitiva. Utilizo tecnologias e frameworks de ponta, incluindo WordPress, para entregar soluções personalizadas e de alta qualidade.
