@@ -54,7 +54,7 @@ export default function ActionAreaCard() {
 
                 <CardContent>
                   <Typography gutterBottom variant="h5" component="div">
-                    Analista de suporte 
+                    Analista de suporte na empresa 
                     Facil Sistemas Ltda
                   </Typography>
                   <Typography variant="body2" color="text.primary">
