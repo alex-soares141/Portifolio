@@ -11,7 +11,7 @@ const NavBar = () => {
     [theme.breakpoints.down("sm")]: {
 
       alignItems: "center",
-      gap: "0px",
+      gap: "7px",
       justifyContent: "space-between",
 
 
@@ -33,6 +33,7 @@ const NavBar = () => {
     color: "inherit",
     "&:hover": {
       textDecoration: "underline", // Sublinha o texto ao passar o mouse
+
     },
   }));
 
