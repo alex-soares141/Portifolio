@@ -12,7 +12,7 @@ const NavBar = () => {
 
       alignItems: "center",
 
-      gap: "10px",
+
 
       justifyContent: "space-between",
 
