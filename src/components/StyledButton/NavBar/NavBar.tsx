@@ -2,10 +2,21 @@ import { AppBar, MenuItem, Toolbar, styled } from "@mui/material";
 import { Link } from "react-scroll";
 
 const NavBar = () => {
-  const StyledToolbar = styled(Toolbar)(() => ({
+  const StyledToolbar = styled(Toolbar)(({ theme }) => ({
     display: "flex",
     justifyContent: "space-evenly",
     borderBottom: "1px solid #ccc",
+
+
+    [theme.breakpoints.down("sm")]: {
+
+      alignItems: "center",
+      gap: "0px",
+      justifyContent: "space-between",
+
+
+
+    },
 
   }));
 
@@ -14,7 +25,6 @@ const NavBar = () => {
     "&:hover": {
       color: "#8cb0b5", // Cor do texto ao passar o mouse
       transform: "scale(1.1)", // Leve aumento de tamanho
-
     },
   }));
 
@@ -29,7 +39,6 @@ const NavBar = () => {
   return (
     <>
       <AppBar position="fixed">
-
         <StyledToolbar>
           <StyledMenuItem>
             <StyledLink smooth={true} duration={1000} to="home">
