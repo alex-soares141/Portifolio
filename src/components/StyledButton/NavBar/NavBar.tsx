@@ -11,7 +11,9 @@ const NavBar = () => {
     [theme.breakpoints.down("sm")]: {
 
       alignItems: "center",
-      gap: "7px",
+
+      gap: "10px",
+
       justifyContent: "space-between",
 
 
@@ -39,7 +41,7 @@ const NavBar = () => {
 
   return (
     <>
-      <AppBar position="fixed">
+      <AppBar position="fixed" >
         <StyledToolbar>
           <StyledMenuItem>
             <StyledLink smooth={true} duration={1000} to="home">
