@@ -6,6 +6,7 @@ const NavBar = () => {
     display: "flex",
     justifyContent: "space-evenly",
     borderBottom: "1px solid #ccc",
+
   }));
 
   const StyledMenuItem = styled(MenuItem)(() => ({
@@ -13,6 +14,7 @@ const NavBar = () => {
     "&:hover": {
       color: "#8cb0b5", // Cor do texto ao passar o mouse
       transform: "scale(1.1)", // Leve aumento de tamanho
+
     },
   }));
 
@@ -26,8 +28,14 @@ const NavBar = () => {
 
   return (
     <>
-      <AppBar position="absolute">
+      <AppBar position="fixed">
+
         <StyledToolbar>
+          <StyledMenuItem>
+            <StyledLink smooth={true} duration={1000} to="home">
+              Home
+            </StyledLink>
+          </StyledMenuItem>
           <StyledMenuItem>
             <StyledLink to="about" smooth={true} duration={1000}>
               Sobre Mim

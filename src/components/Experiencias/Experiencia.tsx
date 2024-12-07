@@ -54,7 +54,7 @@ export default function ActionAreaCard() {
 
                 <CardContent>
                   <Typography gutterBottom variant="h5" component="div">
-                    Analista de suporte na empresa 
+                    Analista de suporte na empresa
                     Facil Sistemas Ltda
                   </Typography>
                   <Typography variant="body2" color="text.primary">
@@ -97,8 +97,8 @@ export default function ActionAreaCard() {
 
                 <CardContent>
                   <Typography gutterBottom variant="h5" component="div">
-                    Desenvolvedor de front-end na empresa 
-                    Worxs Base
+                    Desenvolvedor de front-end na empresa
+                    WorxsBase
                   </Typography>
                   <Typography variant="body2" color="text.primary">
                     Atuo como Desenvolvedor Front-End, atendendo clientes na plataforma WorxBase. Minha principal responsabilidade é criar interfaces modernas, interativas e responsivas que proporcionem uma experiência de usuário eficiente e intuitiva. Utilizo tecnologias e frameworks de ponta, incluindo WordPress, para entregar soluções personalizadas e de alta qualidade.

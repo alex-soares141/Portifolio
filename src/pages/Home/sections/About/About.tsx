@@ -25,12 +25,11 @@ const About = () => {
         </Typography>
         <Typography textAlign="initial" fontSize={19}>
           <Box>
-            Meu nome é Alex Soares de Oliveira, tenho 29 anos e sou natural de Guanhães-MG, onde passei boa parte da minha vida trabalhando como
-            vendedor em lojas de materiais de construção. Em 2021, tive a oportunidade de ingressar no mercado de TI, um campo que sempre despertou
-            minha curiosidade. Desde então, percebi que estava trilhando o caminho certo para minha carreira. Em 2022, iniciei a faculdade
-            de Análise e Desenvolvimento de Sistemas e obtive minha graduação. Além disso, finalizei o curso profissionalizante de Engenheiro
-            Front-End pela EBAC. Porém, minha jornada não para por aqui, continuo em constante busca por aprendizado e estou à
-            procura de novas oportunidades no mercado.
+            Meu nome é Alex Soares de Oliveira, tenho 29 anos e sou natural de Guanhães-MG, onde iniciei minha trajetória profissional como vendedor em lojas de materiais de construção. Sempre tive curiosidade pela área de tecnologia, e em 2021 tive a oportunidade de dar um grande passo em direção a esse mercado, ingressando na área de TI. Desde então, percebi que havia encontrado minha verdadeira vocação.
+
+            Em 2022, comecei a faculdade de Análise e Desenvolvimento de Sistemas, concluindo minha graduação com sucesso. Além disso, finalizei o curso profissionalizante Desenvolvedor Front-End pela EBAC, onde desenvolvi uma base sólida em tecnologias modernas.
+
+            Atualmente, trabalho como desenvolvedor autônomo na Worxbase e como voluntário na Fusion Frontend, onde aplico e aprimoro minhas habilidades utilizando as ferramentas mais atuais do mercado. Essas experiências têm sido essenciais para consolidar minha carreira e expandir meus conhecimentos na área de desenvolvimento.
           </Box>
         </Typography>
       </Container>

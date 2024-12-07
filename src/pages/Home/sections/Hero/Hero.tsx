@@ -29,7 +29,7 @@ const Hero = () => {
 
   return (
     <>
-      <StyledHero>
+      <StyledHero id="home">
         <Container maxWidth="lg">
           <Grid container spacing={6}>
             <Grid item xs={12} lg={5}>
