@@ -63,7 +63,7 @@ const Footer = () => {
             <img src={Instagram} alt="instagram" />
           </IconLink>
           <IconLink
-            href="https://github.com/Lostleleco"
+            href="https://github.com/alex-soares141"
             style={{ textDecoration: 'none', color: 'inherit' }}
             target="_blank"
             rel="noopener noreferrer"
