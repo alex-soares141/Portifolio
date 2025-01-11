@@ -79,7 +79,7 @@ const Hero = () => {
                     <DownloadForOfflineIcon />
                     <Typography>
                       <a
-                        href="https://drive.google.com/file/d/1YS1aj_ABh7K_NK93B48EYwmR3f1BYdCK/view?usp=drive_link"
+                        href="https://docs.google.com/document/d/1wFoGn6UJCor93-xZHqXGEaR5DJncJHp2/edit"
                         style={{ textDecoration: 'none', color: 'inherit' }}
                         target="_blank"
                         rel="noopener noreferrer"

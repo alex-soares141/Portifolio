@@ -25,7 +25,7 @@ const About = () => {
         </Typography>
         <Typography textAlign="initial" fontSize={19}>
           <Box>
-            Meu nome é Alex Soares de Oliveira, tenho 29 anos e sou natural de Guanhães-MG, onde iniciei minha trajetória profissional como vendedor em lojas de materiais de construção. Sempre tive curiosidade pela área de tecnologia, e em 2021 tive a oportunidade de dar um grande passo em direção a esse mercado, ingressando na área de TI. Desde então, percebi que havia encontrado minha verdadeira vocação.
+            Meu nome é Alex Soares de Oliveira, tenho 30 anos e sou natural de Guanhães-MG, onde iniciei minha trajetória profissional como vendedor em lojas de materiais de construção. Sempre tive curiosidade pela área de tecnologia, e em 2021 tive a oportunidade de dar um grande passo em direção a esse mercado, ingressando na área de TI. Desde então, percebi que havia encontrado minha verdadeira vocação.
 
             Em 2022, comecei a faculdade de Análise e Desenvolvimento de Sistemas, concluindo minha graduação com sucesso. Além disso, finalizei o curso profissionalizante Desenvolvedor Front-End pela EBAC, onde desenvolvi uma base sólida em tecnologias modernas.
 
