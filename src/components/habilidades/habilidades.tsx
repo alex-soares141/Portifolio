@@ -1,14 +1,14 @@
-function Footer() {
+function Habilidades() {
 
 
     return (
         <>
             <div className="bg-blue-500 text-white p-4">
-                Footer
+                Habilidades
             </div>
 
         </>
     )
 }
 
-export default Footer
+export default Habilidades

@@ -1,14 +1,14 @@
-function Footer() {
+function Experiencias() {
 
 
     return (
         <>
             <div className="bg-blue-500 text-white p-4">
-                Footer
+                Experiencias
             </div>
 
         </>
     )
 }
 
-export default Footer
+export default Experiencias
