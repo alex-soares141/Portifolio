@@ -2,7 +2,7 @@ import Box from "@mui/material/Box/Box";
 import { AnimatedBackground } from "../AnimatedBackground/AnimatedBackground";
 import Apresentação from '../../assets/Apresentação.png'
 import Disney from '../../assets/Disney.png'
-import MX from '../../assets/MX.png'
+
 import Teste from '../../assets/TesteEbac.png'
 import Fusion from '../../assets/Fusion.png'
 import Galeria from '../../assets/Galeria.png'
@@ -43,13 +43,7 @@ function Projetos() {
                             foi realizar um clone da página da Disney + utilizando HTML, CSS e JavaScript</p>
                     </div>
 
-                    {/* Projeto 3 */}
-                    <div className="flex flex-col items-center">
-                        <img className="w-full h-72 object-cover rounded-md" src={MX} alt="Mx Store" />
-                        <h3 className="p-3 font-inter">Mx Store</h3>
-                        <p className="p-3 font-inter text-sm text-center">A Mx Store é uma página de minha autoria feita com HTML, CSS e JavaScript desenvolvida
-                            para testar minhas habilidades adquiridas durante meus estudos, e por ser amante do esporte optei por uma loja de equipamentos</p>
-                    </div>
+
 
                     {/* Projeto 4 */}
                     <div className="flex flex-col items-center">
