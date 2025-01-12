@@ -1,6 +1,6 @@
 
 import Experiencias from './components/experiencias/experiencias.tsx'
-import Footer from './components/footer/footer.tsx'
+
 import Habilidades from './components/habilidades/habilidades.tsx'
 import Hero from './components/hero/hero.tsx'
 import NavBar from './components/NavBar/NavBar.tsx'
@@ -20,7 +20,7 @@ function App() {
       <Habilidades />
       <ProjetosGithub />
       <Experiencias />
-      <Footer />
+    
 
     </>
   )
