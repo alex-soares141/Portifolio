@@ -2,7 +2,7 @@ import Box from "@mui/material/Box/Box";
 import { AnimatedBackground } from "../AnimatedBackground/AnimatedBackground";
 import Apresentação from '../../assets/Apresentação.png'
 import Disney from '../../assets/Disney.png'
-import Store from '../../assets/MX.png'
+import Store from '../../assets/Store.png'
 import Teste from '../../assets/TesteEbac.png'
 import Fusion from '../../assets/Fusion.png'
 import Galeria from '../../assets/Galeria.png'
