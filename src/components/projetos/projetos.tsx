@@ -14,7 +14,7 @@ import Volutanrio from '../../assets/voluntario.png'
 function Projetos() {
     return (
         <>
-            <div className="bg-[#1E293B] text-white p-4">
+            <div className="bg-[#1E293B] text-white p-8">
                 <Box className="absolute inset-0 z-0">
                     <AnimatedBackground />
                 </Box>
@@ -26,7 +26,7 @@ function Projetos() {
                 </div>
 
                 <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 p-5">
-                    {/* Projeto 1 */}
+
                     <div className="flex flex-col items-center">
                         <img className="w-full h-72 object-cover rounded-md" src={Apresentação} alt="Apresentação" />
                         <h3 className="p-3 font-inter">Apresentação a Fusion</h3>
@@ -35,7 +35,7 @@ function Projetos() {
                             Junio</p>
                     </div>
 
-                    {/* Projeto 2 */}
+
                     <div className="flex flex-col items-center">
                         <img className="w-full h-72 object-cover rounded-md" src={Disney} alt="Disney Plus" />
                         <h3 className="p-3 font-inter">Disney Plus</h3>
@@ -43,7 +43,7 @@ function Projetos() {
                             foi realizar um clone da página da Disney + utilizando HTML, CSS e JavaScript</p>
                     </div>
 
-                    {/* Projeto 3 */}
+
                     <div className="flex flex-col items-center">
                         <img className="w-full h-72 object-cover rounded-md" src={Store} alt="Mx Store" />
                         <h3 className="p-3 font-inter">Mx Store</h3>
@@ -51,7 +51,7 @@ function Projetos() {
                             para testar minhas habilidades adquiridas durante meus estudos, e por ser amante do esporte optei por uma loja de equipamentos</p>
                     </div>
 
-                    {/* Projeto 4 */}
+
                     <div className="flex flex-col items-center">
                         <img className="w-full h-72 object-cover rounded-md" src={Teste} alt="Teste Final EBAC" />
                         <h3 className="p-3 font-inter">Teste Final EBAC</h3>
@@ -59,7 +59,7 @@ function Projetos() {
                             um restaurante e implementar um carrinho de compras com validação de pagamento.</p>
                     </div>
 
-                    {/* Projeto 5 */}
+
                     <div className="flex flex-col items-center">
                         <img className="w-full h-72 object-cover rounded-md" src={Fusion} alt="Pórtifolio colaborativo" />
                         <h3 className="p-3 font-inter">Pórtifolio colaborativo</h3>
@@ -67,7 +67,7 @@ function Projetos() {
                             desenvolvedores, onde eu aprendi muito sobre equipe e trabalho em equipe.</p>
                     </div>
 
-                    {/* Projeto 6 */}
+
                     <div className="flex flex-col items-center">
                         <img className="w-full h-72 object-cover rounded-md" src={Galeria} alt="Galeria de Imagens" />
                         <h3 className="p-3 font-inter">Galeria de Imagens</h3>
@@ -75,7 +75,7 @@ function Projetos() {
                             categorias</p>
                     </div>
 
-                    {/* Projeto 7 */}
+
                     <div className="flex flex-col items-center">
                         <img className="w-full h-72 object-cover rounded-md" src={Eplay} alt="Eplay Games" />
                         <h3 className="p-3 font-inter">Eplay Games</h3>
@@ -83,7 +83,7 @@ function Projetos() {
                             onde eu tinha que desenvolver uma página totalmente responsiva, consumindo uma API Fake porem de games.</p>
                     </div>
 
-                    {/* Projeto 8 */}
+
                     <div className="flex flex-col items-center">
                         <img className="w-full h-72 object-cover rounded-md" src={Volutanrio} alt="Código certo" />
                         <h3 className="p-3 font-inter">Código certo</h3>

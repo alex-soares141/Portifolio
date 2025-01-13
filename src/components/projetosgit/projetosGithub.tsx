@@ -32,7 +32,7 @@ function ProjetosGithub() {
 
     return (
         <>
-            <div className="bg-[#3B82F6] text-white p-4">
+            <div className="bg-[#1E293B] text-white p-4">
                 <Box className="absolute inset-0 z-0">
                     <AnimatedBackground />
                 </Box>
@@ -41,13 +41,13 @@ function ProjetosGithub() {
                     <h2 id="projetos_no_github" className="font-zendots flex justify-center text-4xl sm:text-6xl text-secondary pb-6 ">
                         Meus projetos no GitHub
                     </h2>
-                    <p className="font-roboto flex justify-center text-secondary text-lg sm:text-3xl pb-12">
+                    <p className="font-roboto flex justify-center text-secondary text-lg sm:text-3xl pb-20">
                         Veja todos os meus projetos do GitHub clicando no botão abaixo:
                     </p>
                     <div className="flex justify-center">
                         <button
                             onClick={handleClick}  // Chama a função quando o botão é clicado
-                            className="flex bg-botao hover:bg-botaoHover rounded-full text-white font-semibold hover:text-black py-2 px-4 border border-white hover:border-transparent"
+                            className=" flex bg-botao hover:bg-botaoHover rounded-full text-white font-semibold hover:text-black py-4 px-12 border border-white hover:border-transparent"
                         >
                             {isReposVisible ? "Ocultar Projetos" : "Clique Aqui"}
                         </button>

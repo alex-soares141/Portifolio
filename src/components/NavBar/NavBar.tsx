@@ -28,7 +28,7 @@ const NavBar = () => {
             {/* Menu Hamburguer para dispositivos menores */}
             <div className="md:hidden flex justify-between items-center">
                 <div className="text-white text-3xl cursor-pointer" onClick={toggleMenu}>
-                    {isMenuOpen ? 'X' : '☰'} {/* Exibe X ou ☰ */}
+                    {isMenuOpen ? 'X' : '☰'} 
                 </div>
                 {isMenuOpen && (
                     <ul className="absolute top-16 left-0 bg-[#1E293B] w-full py-4 px-8 text-center">
