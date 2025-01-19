@@ -1,7 +1,7 @@
 import { useState } from 'react';
 
 const NavBar = () => {
-    const menu = ['Home', 'Sobre', 'Projetos', 'Projetos_no_GitHub', 'Skills', 'Experiencias', 'Contato'];
+    const menu = ['Home', 'Sobre', 'Projetos', 'Projetos_no_GitHub', 'Skills', 'Experiencias', 'Contatos'];
 
     const [isMenuOpen, setIsMenuOpen] = useState(false);
 
@@ -17,7 +17,7 @@ const NavBar = () => {
                     <li key={item} className="flex justify-between items-center">
                         <a
                             className="hover:text-gray-400 cursor-pointer"
-                            href={`#${item.toLowerCase()}`}
+                            href={`#${item.toLowerCase().replace(/_/g, '-')}`} // Substituindo "_" por "-" no href
                         >
                             {item.replace(/_/g, ' ')}
                         </a>
@@ -28,7 +28,7 @@ const NavBar = () => {
             {/* Menu Hamburguer para dispositivos menores */}
             <div className="md:hidden flex justify-between items-center">
                 <div className="text-white text-3xl cursor-pointer" onClick={toggleMenu}>
-                    {isMenuOpen ? 'X' : '☰'} 
+                    {isMenuOpen ? 'X' : '☰'}
                 </div>
                 {isMenuOpen && (
                     <ul className="absolute top-16 left-0 bg-[#1E293B] w-full py-4 px-8 text-center">
@@ -36,7 +36,7 @@ const NavBar = () => {
                             <li key={item} className="py-2">
                                 <a
                                     className="hover:text-gray-400 cursor-pointer"
-                                    href={`#${item.toLowerCase()}`}
+                                    href={`#${item.toLowerCase().replace(/_/g, '-')}`} // Substituindo "_" por "-" no href
                                     onClick={() => setIsMenuOpen(false)} // Fecha o menu ao clicar em um item
                                 >
                                     {item.replace(/_/g, ' ')}

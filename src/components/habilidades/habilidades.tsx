@@ -50,12 +50,9 @@ function Habilidades() {
     ];
 
     return (
-        <div className="bg-blue-500 text-white p-8 flex items-center justify-center min-h-screen">
+        <div id="skills" className="bg-blue-500 text-white p-8 flex items-center justify-center min-h-screen">
             <div className="text-center w-full max-w-6xl">
-                <h2
-                    id="Skills"
-                    className="font-zendots text-4xl sm:text-6xl text-secondary pb-12"
-                >
+                <h2 className="font-zendots text-4xl sm:text-6xl text-secondary pb-12">
                     Minhas Competências
                 </h2>
                 <div className="flex flex-col gap-12">
