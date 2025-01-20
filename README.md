@@ -1,50 +1,72 @@
-# React + TypeScript + Vite
+Meu Portfólio Pessoal 🌐
+Bem-vindo ao repositório do meu portfólio pessoal! Este projeto foi desenvolvido para apresentar minhas habilidades, projetos e experiências como desenvolvedor.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🛠️ Tecnologias Utilizadas
+React: Biblioteca JavaScript para construção de interfaces.
+TypeScript: Linguagem que adiciona tipagem ao JavaScript, garantindo maior segurança e escalabilidade.
+Tailwind CSS: Framework de CSS para estilização rápida e eficiente.
+Material UI (MUI): Biblioteca de componentes para interfaces modernas e responsivas.
+Vite: Ferramenta para construção rápida de aplicações modernas.
+✨ Funcionalidades
+Apresentação dos meus projetos com detalhes.
+Seção sobre mim, incluindo habilidades e certificações.
+Design responsivo e acessível.
+Links diretos para redes sociais e repositórios.
+🚀 Como Executar o Projeto
+Siga as etapas abaixo para clonar e executar o projeto localmente:
 
-Currently, two official plugins are available:
+Pré-requisitos
+Node.js instalado (versão 16+ recomendada)
+Gerenciador de pacotes npm ou yarn
+Passos
+Clone este repositório:
+bash
+Copiar
+Editar
+git clone https://github.com/alex-soares141/meu-portifolio.git
+Acesse o diretório do projeto:
+bash
+Copiar
+Editar
+cd meu-portifolio
+Instale as dependências:
+bash
+Copiar
+Editar
+npm install
+# ou
+yarn install
+Inicie o servidor de desenvolvimento:
+bash
+Copiar
+Editar
+npm run dev
+# ou
+yarn dev
+Abra o navegador e acesse http://localhost:5173.
+📸 Demonstração
+Adicione capturas de tela ou um link para uma demonstração ao vivo do seu portfólio.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Demonstração ao Vivo
+📂 Estrutura do Projeto
+plaintext
+Copiar
+Editar
+├── src/
+│   ├── components/   # Componentes reutilizáveis
+│   ├── assets/       # Imagens e outros arquivos estáticos
+│   └── App.tsx       # Arquivo principal do React
+├── public/           # Arquivos públicos
+├── package.json      # Dependências e scripts do projeto
+└── vite.config.ts    # Configuração do Vite
+💡 Inspirações e Recursos
+Documentação do React
+Documentação do TypeScript
+Tailwind CSS
+Material UI
+📧 Contato
+Se tiver dúvidas ou sugestões, fique à vontade para entrar em contato:
 
-## Expanding the ESLint configuration
+Email: alex.soares@example.com
+LinkedIn: linkedin.com/in/alex-soares
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
-
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
-
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
-
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
