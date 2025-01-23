@@ -9,7 +9,7 @@ import Galeria from '../../assets/Galeria.png';
 import Eplay from '../../assets/Eplay.png';
 import Volutanrio from '../../assets/voluntario.png';
 import Otimização from '../../assets/Otimização.png';
-
+import Worx from '../../assets/Worxs.png'
 function Projetos() {
     return (
         <>
@@ -26,6 +26,7 @@ function Projetos() {
 
                 <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 p-5">
                     {[
+
                         {
                             img: Otimização,
                             alt: "Otimização Wordpress",
@@ -33,6 +34,14 @@ function Projetos() {
                             description:
                                 "Esse foi um trabalho Free lancer desenvolvido para Worxbase em Wordpress, onde o principal objetivo era realizar melhorias na página como melhorar a experiência do usuário, usabilidade e performance.",
                             link: "https://ensino.rpbcompany.com.br/"
+                        },
+                        {
+                            img: Worx,
+                            alt: "Adição de itens",
+                            title: "Projeto Free Lancer",
+                            description:
+                                "Esse foi mais um trabalho desenvolvido para Worxbase, onde foi necessario criar um campo de mensagem na pagina do blog já existente incluindo um desing responsivo em duas colunas.",
+                            link: "https://trendschool.com.br/"
                         },
                         {
                             img: Apresentação,
