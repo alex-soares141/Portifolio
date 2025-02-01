@@ -46,7 +46,7 @@ function Habilidades() {
         "ESLint",
         "Prettier",
         "RESTful APIs",
-        "Axios",
+        "Axios"
     ];
 
     return (
