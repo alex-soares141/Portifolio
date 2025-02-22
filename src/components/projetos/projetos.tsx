@@ -10,6 +10,7 @@ import Eplay from '../../assets/Eplay.png';
 import Volutanrio from '../../assets/voluntario.png';
 import Otimização from '../../assets/Otimização.png';
 import Worx from '../../assets/Worxs.png'
+import Traducao from '../../assets/Traducao.png';
 function Projetos() {
     return (
         <>
@@ -26,6 +27,14 @@ function Projetos() {
 
                 <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 p-5">
                     {[
+                         {
+                            img: Traducao,
+                            alt: "imagem do site",
+                            title: "Serviços de Tradução ",
+                            description:
+                                "Projeto feito como Free-Lancer para um cliente brasileiro que vive nos EUA. Ele trabalha auxiliando imigrantes brasileiros na regularização de documentações, e agora conta com um site moderno e otimizado para expandir seu alcance.",
+                            link: "https://traducaoeua.com/"
+                        },
 
                         {
                             img: Otimização,
