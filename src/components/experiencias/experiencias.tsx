@@ -41,6 +41,12 @@ function Experiencias() {
                                 "Atuo como voluntário e estudante no time de desenvolvedores da Front Fusion, contribuindo para o desenvolvimento de sites utilizando tecnologias de ponta do mercado. Minha atuação foca em aliar funcionalidades inovadoras a designs modernos, trabalhando em colaboração com uma equipe multidisciplinar. Essa experiência tem como objetivo não apenas entregar soluções completas e personalizadas, mas também aprimorar continuamente minhas habilidades técnicas e adquirir novos conhecimentos.",
 
                         },
+                        {
+                            title: "Desenvolvedor Front-end Autônomo",
+                            description:
+                                "Atuo como desenvolvedor front-end freelancer, criando interfaces modernas e responsivas para web. Trabalho com React, TypeScript e Tailwind CSS e também WordPress para desenvolver aplicações eficientes e intuitivas. Além disso, realizo manutenção e otimização de código, garantindo performance e acessibilidade.",
+                        }
+                        
 
                     ].map((project, index) => (
                         <div
