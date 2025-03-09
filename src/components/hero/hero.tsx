@@ -23,7 +23,7 @@ function Hero() {
                                 <a href="https://wa.me/5533988997674">Entre em contato</a>
                             </button>
                             <button className='py-2 px-6 sm:py-2 sm:px-9 text-secondary rounded-full bg-botao hover:bg-botaoHover'>
-                                <a href="https://drive.google.com/file/d/14tmeRFkPJFtDRUVPNglHarBrrBDC8wVr/view?usp=sharing">Download CV</a>
+                                <a href="https://drive.google.com/file/d/1RPUfj-TxO1e-Co9VhEM4CZ-HlBi9-Bak/view?usp=sharing">Download CV</a>
                             </button>
                         </div>
                     </div>
